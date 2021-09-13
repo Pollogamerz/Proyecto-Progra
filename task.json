@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "task": [
+        {
+            "type": "shell",
+            "label": "build",
+            "comand": "g++",
+            "args": [
+                "-std=c++17",
+                "-Iinclude",
+                "src/*cc",
+                "-o",
+                "bin/game.exe",
+                "lib/*.a"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "compilador: \"D:\\proyecto progra"
+
+        } 
+    ]
+}
